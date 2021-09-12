@@ -47,7 +47,7 @@ class Cart
         echo '<p> Product list</p><br>';
         foreach ($this->items as $product) {
             
-            echo $product->name. ' - '. $product->price. ' x '.$product->getQuantity();
+            echo $product->getName(). ' - '. $product->getPrice(). ' x '.$product->getQuantity();
             echo '<hr>';
         }
 
