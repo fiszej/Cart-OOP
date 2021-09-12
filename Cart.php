@@ -51,7 +51,7 @@ class Cart
             echo '<hr>';
         }
 
-        echo '<b>Total sum: </b>'.$this->getTotalSum();
+        echo '<b>Total sum: </b>'.number_format($this->getTotalSum(), 2);
     }
 
 }
